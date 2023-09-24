@@ -1,0 +1,14 @@
+from typing import *
+
+def dataTypes(data_type: str):
+    
+    data_type_sizes ={
+        "Integer": 4,
+        "Long": 8,
+        "Float": 4,
+        "Double": 8,
+        "Character": 1}
+    if data_type in data_type_sizes:
+        return data_type_sizes[data_type]
+    else:
+        return "Unknown data type"
