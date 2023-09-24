@@ -1,0 +1,14 @@
+upperchar = ["A","B","C","D","E","F",'G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+lowerchar = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+
+def find_char(character):
+
+    if character in upperchar:
+        return 1
+    elif character in lowerchar:
+        return 0
+    else:
+        return -1
+
+a = input()
+print(find_char(a))
